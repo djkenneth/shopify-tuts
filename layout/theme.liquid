@@ -28,7 +28,7 @@
   </head>
 
   <body>
-    {% render 'header' %}
+    {% section 'header' %}
     <main>
       {{ content_for_layout }}
       {{ 'script.js' | asset_url | script_tag }}
